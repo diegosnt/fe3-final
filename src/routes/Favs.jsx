@@ -3,7 +3,9 @@ import ListFavs from '../components/ListFavs'
 
 function Favs() {
   return (
-    <ListFavs />
+    <>
+      <ListFavs />
+    </>
   )
 }
 

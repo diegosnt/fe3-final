@@ -3,9 +3,9 @@ import CardDetail from '../components/CardDetail'
 
 function Dentist() {
   return (
-    <div>
+    <>
       <CardDetail />
-    </div>
+    </>
   )
 }
 
