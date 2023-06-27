@@ -1,19 +1,24 @@
-//import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-import Card from './components/Card'
+import { Routes, Route } from 'react-router-dom'
+import Home from './routes/Home'
+import Contacto from './routes/Contacto'
+import Dentist from './routes/Dentist'
+import Header from './components/Header'
 import Footer from './components/Footer'
 
 function App() {
-  //const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <Card />
-        <Footer />
-      </div>
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/dentist/:id" element={<Dentist />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
   )
 }
