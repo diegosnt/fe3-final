@@ -5,6 +5,7 @@ import Contacto from './routes/Contacto'
 import Dentist from './routes/Dentist'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Favs from './routes/Favs'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/contacto" element={<Contacto />} />
           <Route path="/dentist/:id" element={<Dentist />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/favs" element={<Favs />} />
         </Routes>
       </main>
       <Footer />
