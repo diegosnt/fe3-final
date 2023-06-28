@@ -41,10 +41,46 @@
   color: #888;
 } */
 
-header{
-  background-color: #F2BE22;
+header {
+  background-color: #f2be22;
 }
 
-footer{
-  background-color: #F24C3D;
+footer {
+  background-color: #f24c3d;
 }
+
+.Card {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px #3333;
+  background-color: #22a699;
+  padding: 10px;
+  text-align: center;
+  /* border: 2px solid #444; */
+}
+
+.Card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.ListCards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* .Container{
+  background-color: black;
+} */
