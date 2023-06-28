@@ -2,7 +2,9 @@ import React from 'react'
 
 function ListFavs() {
   return (
-    <div>ListFavs</div>
+    <>
+      <h1>ListFavs</h1>
+    </>
   )
 }
 

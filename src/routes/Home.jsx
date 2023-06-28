@@ -1,10 +1,10 @@
 import React from 'react'
-import Card from '../components/Card'
+import ListCards from '../components/ListCards'
 
 function Home() {
   return (
     <>
-      <Card />
+      <ListCards />
     </>
   )
 }
