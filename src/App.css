@@ -43,15 +43,23 @@
 
 header {
   background-color: #f2be22;
+  position: sticky;
+  top: 0; 
 }
 
 footer {
   background-color: #f24c3d;
+  position: sticky;
+  bottom: 0;  
+  /* clear: both;
+  position: relative; */
+  height: 30px;
+  margin-top: 10px;
 }
 
 .Card {
-  width: 300px;
-  border-radius: 20px;
+  width: 250px;
+  border-radius: 15px;
   box-shadow: 3px 3px 7px #3333;
   background-color: #22a699;
   padding: 10px;
@@ -81,6 +89,26 @@ nav {
   text-decoration: none;
 }
 
-/* .Container{
+#Dark {
   background-color: black;
-} */
+}
+
+#Light {
+  background-color: white;
+}
+
+nav {
+  color: black;
+}
+
+#container {
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+  grid-template-columns:100%;
+
+  /* fallback height */
+  min-height:100vh;
+
+  /* new small viewport height for modern browsers */
+  min-height:100svh;
+}

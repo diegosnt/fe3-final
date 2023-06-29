@@ -6,9 +6,9 @@ function ListCards() {
   const { dentists } = useContext(GlobalDataContext)
   console.log(dentists)
   return (
-    <div className='Container'>
+    <div className="Container">
       <h1>Listado de Dentistas</h1>
-      <div className='ListCards'>
+      <div className="ListCards">
         {dentists.map((dentist) => (
           <Card key={dentist.id} dentist={dentist} />
         ))}

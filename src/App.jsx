@@ -10,8 +10,10 @@ import GlobalDataContextProvider from './context/GlobalDataContext'
 
 function App() {
   return (
-    <>
+    
+      <div className='container'>
       <GlobalDataContextProvider>
+
         <Header />
         <main>
           <Routes>
@@ -23,8 +25,10 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        
       </GlobalDataContextProvider>
-    </>
+      </div>
+   
   )
 }
 
