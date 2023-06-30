@@ -1,10 +1,10 @@
 import React from 'react'
-import FormContacto from '../components/FormContacto'
+import Formulario from '../components/Formulario'
 
 function Contacto() {
   return (
     <>
-      <FormContacto></FormContacto>
+      <Formulario />
     </>
   )
 }
